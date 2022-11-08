@@ -1,0 +1,17 @@
+.logo{
+	width:95px;
+	cursor:pointer;
+}
+
+fieldset{
+	width:30%;
+}
+
+legend{
+	font-size:25px;
+	color:#EAB543;
+}
+
+input{
+	width:150px;
+}

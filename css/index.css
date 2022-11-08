@@ -1,0 +1,41 @@
+.logo{
+	width:95px;
+	cursor:pointer;
+}
+
+.mainheader nav{
+	background-color:#7b7d7d;
+	height:40px;              
+	border-radius:5px;	
+}
+
+.mainheader nav ul{
+	text-align:center;
+	list-style:none;
+}
+
+.mainheader nav ul li{
+	display:inline;  /* line horizontal */
+	color:white; /* links will be not white */
+}
+
+a{
+  text-decoration:none;  /* will remove underline under the link text */
+}
+
+.mainheader a:link, .mainheader a:visited{  /* How it will looks like the navigation (fixed) */
+	color:white; /* here links color will change to white */
+	padding:10px 40px;
+	display:inline-block;
+	height:20px;
+}
+
+.mainheader a:hover, .mainheader a:active{ /* here inside code for when mouse go above words of nav links as home,about us,... the colors will change as below mentioned */
+	color:black;
+	background-color:#EAB543;
+}
+
+body{
+	background-color:white;
+}
+
