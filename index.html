@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title> School Management System</title>
+<title>School Management System</title>
 <link rel="stylesheet" href="css/index.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script> <!-- www.jquery.com -->
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script> <!-- cycle for image slider -->
 </head>
 <body>
 
@@ -12,12 +16,42 @@
 <ul>
 <li><a href="#">HOME</a></li>
 <li><a href="#">HELP INSTRUCTION</a></li>
+<li><a href="#">FAQ</a></li>
 <li><a href="#">ABOUT US</a></li>
 <li><a href="#">CONTACT US</a></li>
 <li><a href="Login.html">LOGIN</a></li>
 </ul>
 </nav>
 </header>
+
+<!-- Making images slider -->
+<div>
+<!-- the image will change one by one slowly horizontaly -->
+<div class="cycle-slideshow"
+     data-cycle-speed="100"
+	 data-cycle-manual-speed="2000"
+	 data-cycle-fx='scrollHorz'> 
+</div>
+
+ <!-- START controllers -->
+    <span class="cycle-prev">&#60;</span> <!-- this code html symbols we got from website www.htmlarrows.com -->
+	<span class="cycle-next">&#62;</span>
+	<span class="cycle-pager"></span>
+ <!-- END controllers -->
+ 
+ <img src="images/bbbb1.png" alt="School"/>
+<img src="images/fhfhf.png" alt="Child Students"/>
+<img src="images/schoolindexpic.png" alt="Older Students"/>
+<img src="images/hfh.png" alt="Subjects"/>
+<img src="images/unnamedhjh.png" alt="Marks"/>
+
+</div>
+<br><br>
+
+<footer>
+<p>Created by Najat Al Khatri | &copy 2022 All Rights Reserved</p>
+</footer>
+
 
 </body>
 </html>

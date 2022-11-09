@@ -4,7 +4,7 @@
 }
 
 .mainheader nav{
-	background-color:#7b7d7d;
+	background-color:#28B463;
 	height:40px;              
 	border-radius:5px;	
 }
@@ -32,10 +32,15 @@ a{
 
 .mainheader a:hover, .mainheader a:active{ /* here inside code for when mouse go above words of nav links as home,about us,... the colors will change as below mentioned */
 	color:black;
-	background-color:#EAB543;
+	background-color:#B3B6B7;
 }
 
 body{
-	background-color:white;
+	background-color:#FCF3CF;
 }
+
+
+/* Image Slider */
+
+
 
