@@ -42,5 +42,32 @@ body{
 
 /* Image Slider */
 
+.cycle-slideshow { /* for images */
+	max-width:960px; /* to keep images this size as appear now */
+	margin:30px;
+	border:4px solid black;
+}
+
+.cycle-prev, .cycle-next{ /* all about Arrows */
+	font-size:400%; /* the size of arrow */
+	color:white;
+	position:absolute; /* place of arrow */
+	top:40%;
+	z-index:999; /* without it the arrow will disapear */
+    cursor:pointer;
+}
+
+/* Arrow place.. and should be seperated this code from previous one */
+.cycle-prev{left:5%}
+.cycle-next{right:5%}
+	
+img{  /* for all images apear same size */
+    max-width:100%;
+	width:100%;
+	height:100%;
+}  
+/* End ...Image Slider */
+
+
 
 
